@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Poste</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_closed">Closed</string>
+    <string name="search">Search...</string>
+
+    <string-array name="DrawerOptions">
+        <item>Home</item>
+        <item>Feeds</item>
+        <item>Events</item>
+    </string-array>
+
+    <!-- Decided to go with a huge department list, through which users can search for the department of their choice -->
+
+    <string-array name="Departments" />
+
+    <string name="title_activity_feeds_searchable">FeedsSearchable</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_information">InformationActivity</string>
+
+</resources>

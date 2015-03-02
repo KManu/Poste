@@ -1,0 +1,22 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:com.MIGH.Poste="http://schemas.android.com/apk/res-auto" >
+
+    <item android:id="@+id/NoticeListMenu_addButton"
+        android:icon="@drawable/ic_add_button"
+        android:title="Subscribe To Feed"
+        com.MIGH.Poste:showAsAction="ifRoom"
+        android:orderInCategory="99"/>
+    <item android:id="@+id/NoticeListMenu_Refresh"
+        android:icon="@drawable/ic_refresh_button"
+        android:title="Refresh Feed Content"
+        com.MIGH.Poste:showAsAction="ifRoom"
+        android:orderInCategory="20"/>
+    <item android:id ="@+id/NoticeListMenu_information"
+        android:icon="@drawable/ic_information_button"
+        android:title="Information"
+        android:orderInCategory="10"
+        com.MIGH.Poste:showAsAction="ifRoom" />
+
+
+</menu>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/abc_menu_dropdown_panel_holo_light"
+    android:padding="5dp" >
+	<!-- Used in the FeedGrid Page -->
+
+    <com.MIGH.Poste.SquareImageView
+        android:id="@+id/FeedGrid_FeedLogo"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_super_meat" />
+
+    <TextView
+        android:id="@+id/FeedGrid_FeedName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/trans_gray"
+        android:text="To Infinity And Beyond I Go For The Cake"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@android:color/white"
+        android:padding="5dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:layout_alignRight="@+id/FeedGrid_FeedLogo"
+        android:layout_alignEnd="@+id/FeedGrid_FeedLogo" />
+
+</RelativeLayout>
